@@ -24,10 +24,9 @@ class App extends Component {
     this.setState({
       // filteredItems,
       items: [...filteredItems],
-    }, ()=> {
+    }, 
+    ()=> {
       this.research()
-      console.log("filter item 44: ", this.state.filteredItems)
-
     })
   }
 
